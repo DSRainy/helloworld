@@ -21,9 +21,9 @@ public class TypeCasting {
         number = scanner.nextFloat();
 
         if (number == (int) number) {
-            System.out.println((int) number);
+            System.out.println("output : " + (int) number);
         } else {
-            System.out.println(number);
+            System.out.println("output : " + number);
         }
     }
 }
